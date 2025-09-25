@@ -1,0 +1,534 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+header
+{
+    /* height: 45px; */
+    width: 100%;
+    background-color: #4b343440;
+    padding: 10px 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo
+{
+  width: 140px;
+  /* height: 30px; */
+}
+.logo img
+{
+    width: 100%;
+    height: 100%
+}
+.menus ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.menus ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 15px;
+}
+.menus ul li a:hover
+{
+    color:#d0ae5e ;
+}
+.menus ul li
+{
+    padding: 18px;
+}
+.reservation a
+{
+    background-color: #d0ae5e;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 20px;
+}
+.reservation a:hover
+{
+    border-radius: 50px;
+    color: #fff;
+}
+.background
+{
+    background: linear-gradient(#000000,#00000000),url("https://www.themezaa.com/html/leadgen/demo/cafe/images/bg-image/hero-bg40.jpg");
+     height: 95vh; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    
+}
+.img img
+{
+    width: 100%;
+    height: 100%
+    
+}
+.img
+{
+    height: 450px;
+    width: 500px;
+    /* justify-content: center; */
+    margin: auto;
+}
+.backgroundtwo
+{
+    background-image: url(https://www.themezaa.com/html/leadgen/demo/cafe/images/bg-image/hero-bg17.jpg);
+     /* height: 95vh;  */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top:3rem ;
+}
+.backgroundtwo-text
+{
+    padding: 80px;
+}
+.backgroundtwo-text h2
+{
+color: #d0ae5e;
+font-size: 16px;
+font-weight: 500;
+}
+.backgroundtwo-text h3
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+.backgroundtwo-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.backgroundtwo-img
+{
+    width: 150%;
+    height: 630px; 
+}
+.backgroundtwo-text p
+{
+    font-weight: 300;
+    color: #707070;
+}
+.booknow a
+{ 
+    /* width: 135px; */
+    /* height: 100px; */
+    background-color: #d0ae5e;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.booknow a:hover
+{
+    color: #fff;
+    transform: scale(1.1);
+    transition: linear 0.6s;
+}
+.main_secede_page
+{
+    padding: 1rem;
+}
+.secede_page_img img
+{
+    height: 100%;
+    width: 100%;
+}
+.secede_page_img 
+{
+    height: 250px;
+    /* width: 350px; */
+}
+.secede_page
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     margin: 15px 0; 
+}
+.secede_page_img:hover
+{
+    transform: scale(1.1);
+    transition: linear 0.6s;
+    box-shadow: 2px 2px 5px gray;
+    cursor:crosshair;
+    background-image: linear-gradient(rgb(255,0,0,0));
+    opacity: 0.2;
+}
+.SERVICES_text
+{
+    text-align: center;
+    margin-top: 2rem; 
+}
+.SERVICES_text p
+{
+   color: #707070;
+}
+.SERVICES_img p
+{
+    color: #707070;
+    text-align:center
+}
+.SERVICES_img_main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px; 
+}
+.SERVICES_img h3
+{
+    text-align: center;
+}
+.SERVICES_img 
+{
+    width: 100%;
+    height: 100%;
+}
+.SERVICES_img img
+{
+    text-align: center;
+}
+.main
+{
+    width: 24%;
+    text-align: center;
+}
+
+.MENU-background-imd
+{
+    background: linear-gradient(#00000000,#00000000),url(https://www.themezaa.com/html/leadgen/demo/cafe/images/bg-image/restaurant-menu-bg.jpg);
+    /* height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+}
+.MENU-text
+{
+ padding-top:3rem;
+}
+.MENU-text h1
+{
+   color: white; 
+   text-align: center;
+   font-weight:500;
+}
+.MENU-text p
+{
+    color:#707070;
+    text-align: center;
+    padding-top: 20px;
+}
+.main-main-MENU-img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MENU-img 
+{
+    width: 100%;
+    height: 100%;
+}
+.main-MENU-img
+{
+    padding:60px 45px;
+}
+.main-MENU-img h3
+{
+    color: #d0ae5e;
+    font-size: 12px;
+    font-weight:400;
+    text-align: center;
+}
+.MENU-img img:hover
+{
+    transform: scale(1.1);
+    transition: linear 0.6s;
+    /* box-shadow: 2px 2px 5px gray; */
+    background-image: linear-gradient(rgb(255,0,0,0));
+    opacity: 0.2;
+}
+.main-text
+{
+    display: flex;
+    margin: 20px;
+}
+.main-text h1
+{
+  color:#b8b7b7;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.text p
+{
+  color: #707070;
+
+}
+.line
+{
+    background-color: #70707069;
+    /* height: 10px; */
+    width: 600px;
+    margin: 20px;
+}
+.parent-menu
+{
+    display: flex;
+    margin: 0 30px;
+}
+
+.REVIEW
+{
+    /* height: 100vh; */
+    width:  100%;
+    background-color:#fbf9f3; 
+    /* margin: 30px 0 ; */
+}
+.review-text
+{
+    text-align: center;
+     margin-top:2rem; 
+}
+.review-text p
+{
+   color: #707070;
+   padding-top: 20px;
+}
+.review-box
+{
+    height: 300px;
+    width: 350px;
+    background-color:#fff;
+     padding: 30px; 
+    margin: 60px;
+    text-align: center;
+    box-shadow: 3px 5px 10px black;
+}
+.review-box:hover
+{
+    transform: scale(1.1);
+    transition: linear 0.6s;
+}
+.review-box p
+{
+   font-size: 13px;
+}
+.checked {
+  color: #d0ae5e;
+}
+.review-box h3
+{
+    font-weight:600;
+    font-size: 14px;
+}
+.review-box h5
+{
+   font-weight:600;
+    font-size: 10px;
+}
+span i
+{
+  font-size: 30px;
+  color: #d0ae5e;
+}
+.review-box-one
+{
+    display: flex;
+    text-align: center;
+
+}
+.REVIEW-page
+{
+    /* height:100vh; */
+    width: 100%;
+    background-color:#242526;
+}
+.contact
+{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: #ffffff;
+    margin: 30px 0;
+    padding-bottom:3rem;
+}
+.contact-text 
+{
+    text-align: center;
+}
+.contact-text p
+{
+    color:#707070;
+}
+.flex-box
+{
+   display: flex;
+   /* text-align: center; */
+}
+.contact-box
+{
+    height: 206px;
+    width: 300px;
+    background-color:#fbf9f3;
+    padding: 30px;
+    margin: 50px 50px 0 50px;
+    text-align: center;
+    box-shadow: 3px 5px 10px black;
+   
+}
+.contact-box:hover
+{
+      transform: scale(1.1);
+    transition: linear 0.6s;
+}
+.contact-box span i
+{
+  font-size: 30px;
+  color: #d0ae5e;
+}
+
+.contact-box h4
+{
+    font-weight: 500;
+    font-size: 15px;
+}
+.contact-box p
+{
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.form
+{
+    background: url(https://www.themezaa.com/html/leadgen/demo/cafe/images/bg-image/hero-bg3.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 2rem;
+ 
+
+}
+
+.background-photo
+{
+    /* width: 600px; */
+    /* height: 400px; */
+    text-align: center;
+    color: #ffffff;
+}
+.img-text
+{
+    text-align: center;
+    padding-top: 4rem;
+ 
+}
+.background-photo p
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  
+}
+
+.formdata 
+{
+    height: 300px;
+    width: 500px;
+    /* background-color: white;  */
+    padding: 30px; 
+    /* box-shadow: 8px 8px 20px black; */
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 2rem;
+}
+form input
+{
+  width: 500px;
+  height: 50px;
+  border-radius: 15px;
+    box-shadow: 8px 8px 20px black;
+   /* padding:5px;
+  margin: 5px;  */
+  border: none;
+  padding-left: 10px;
+  
+}
+form textarea{
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px black;
+    padding:10px 0 0 10px;
+  
+}
+.newaccount
+{
+    text-align: center;
+}
+.newaccount a
+{
+    text-decoration: none;
+    margin: 20px;
+    background-color:#d0ae5e;
+    color:black;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 5px 10px;
+ }
+ .newaccount a:hover
+ {
+   background-color: #fff;
+    border-radius: 50px;
+ }
+.last-page
+{
+    height: 130px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.lastpage-text
+{
+    padding: 40px;
+    color:#1a1b1b;
+    font-size: 13px;
+    font-weight:600;
+
+}
+.icon samp
+{
+    padding: 20px;
+    color:#1a1b1b;
+    font-weight: lighter;
+}
